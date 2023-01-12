@@ -25,7 +25,8 @@ print(iterativePower(6,2))
 The function recursivePower contain base and exponential
     if the exponent is 0 
         it will return as 1
-    else multiply the base value with the recursivePower contain base and exponent that decrease by 1
+    else multiply the base value with the recursivePower:
+        contain base and exponent that decrease by 1
 print recursivePower contain base 6 and exponent 2
 
 '''
