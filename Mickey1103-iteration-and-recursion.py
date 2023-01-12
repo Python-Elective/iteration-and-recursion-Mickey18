@@ -11,6 +11,11 @@ print iterativePower contain base 6 and exponent 2
 '''
 
 def iterativePower(base, exp):
+    '''
+    base: int or float.
+    exp: int >= 0
+    returns: int or float, base^exp
+    '''
     if exp == 0:
         return 1
     else:
@@ -19,7 +24,7 @@ def iterativePower(base, exp):
             base *= OriginalBase
         return base
 
-print(iterativePower(6,2))
+print(iterativePower(2,0))
 
 '''
 The function recursivePower contain base and exponential
@@ -32,10 +37,15 @@ print recursivePower contain base 6 and exponent 2
 '''
 
 def recursivePower(base, exp):
+    '''
+    base: int or float.
+    exp: int >= 0
+    returns: int or float, base^exp
+    '''
     if exp == 0:
         return 1
     else:
         return base * (recursivePower(base, exp - 1))
         
-print(recursivePower(6,2))
+print(recursivePower(2,0))
 
